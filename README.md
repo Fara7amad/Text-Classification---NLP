@@ -16,11 +16,12 @@ https://github.com/stanfordnlp/CoreNLP/blob/master/src/edu/stanford/nlp/process/
 3.	Vocabulary set extraction.
 
 4.	Estimation of model parameters.
-a.	Estimate the prior distribution of the Naïve Bayes Classifier at each class. 
-b.	Estimate the likelihood of each word in the training dataset for each class
-Note: do not forget to handle Zero probabilities using Add-1 Laplacian Smoothing and
-5.	Document classification: predict the sentiment of each document in the test dataset using the model built in step 4.
+     - Estimate the prior distribution of the Naïve Bayes Classifier at each class.
+     - Estimate the likelihood of each word in the training dataset for each class
+     - Handle Zero probabilities using Add-1 Laplacian Smoothing and
 
-6.	Model evaluation: Macro-averaged F1-score.
+6.	Document classification: predict the sentiment of each document in the test dataset using the model built in step 4.
 
-7.	EXTRA: think of new features that can be included into the Naïve Bayes Classifier, which contribute to improve the system performance.
+7.	Model evaluation: Macro-averaged F1-score.
+
+8.	EXTRA: think of new features that can be included into the Naïve Bayes Classifier, which contribute to improve the system performance.
